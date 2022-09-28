@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flight-booking</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+
+<body>
+
+
+    <!-- Navigation Bar  -->
+    <header class="header-flight">
+        <div class="container-header">
+            <nav class="nav-flight">
+                <a href="index.html" class="logo">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <div class="hamburger-menu-flight">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                <ul class="nav-list-flight">
+                    <li class="nav-item-flight">
+                        <a href="index.html" class="nav-link current">Home</a>
+                    </li>
+                    <li class="nav-item-flight">
+                        <a href="flight.html" class="nav-link">Flights</a>
+                    </li>
+                    <li class="nav-item-flight">
+                        <a href="car.html" class="nav-link">Cars</a>
+                    </li>
+                    <li class="nav-item-flight">
+                        <a href="package.html" class="nav-link">Packages</a>
+                    </li>
+
+                    <li class="nav-item-flight">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Top Filter bar  -->
+    <header class="filterHeader">
+        <div class="container-filterbanner">
+            <div class="filter-banner">
+
+                <div class="filter-top">
+                    <label for="">TRIP TYPE</label>
+                    <div class="dropdown-desktop-mode">
+                        <span>One Way</span>
+                        <i class="fa fa-chevron-down"></i>
+                        <div class="dropdown-content">
+                            <a href="">Round Trip</a>
+                            <a href="">Multi City</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter-top">
+                    <label for="">FROM</label>
+                    <div class="dropdown-desktop-mode">
+                        <span>Delhi, India</span>
+                        <i class="fa fa-chevron-down"></i>
+                        <div class="dropdown-content">
+                            <i class="fa fa-search"></i>
+                            <input type="text" placeholder="Enter City">
+                        </div>
+                    </div>
+                </div>
+                <img class="exchange" src="./icons/exchange.png" alt="">
+                <div class="filter-top">
+                    <label for="">TO</label>
+                    <div class="dropdown-desktop-mode">
+                        <span>Bangaluru, India</span>
+                        <i class="fa fa-chevron-down"></i>
+                        <div class="dropdown-content">
+                            <i class="fa fa-search"></i>
+                            <input type="text" placeholder="Enter City">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-top">
+                    <div class="date-filter">Depart</div>
+                    <input type="date">
+                </div>
+
+                <div class="filter-top">
+                    <div class="date-filter">Return</div>
+                    <input type="date">
+                </div>
+
+                <div class="filter-button">
+                    <button>SEARCH</button>
+                </div>
+
+
+            </div>
+        </div>
+    </header>
+    <section class="mobile">
+        <div class="container-mobile">
+            <div class="filter-mobile">
+
+                <div class="filter-scroll">
+                    <div class="dropdown">
+                        <span>Non Stop</span>
+                    </div>
+                </div>
+                <div class="filter-scroll">
+                    <div class="dropdown">
+                        <span>Morning Departures</span>
+                    </div>
+                </div>
+                <div class="filter-scroll">
+                    <div class="dropdown">
+                        <span>Indigo</span>
+                    </div>
+                </div>
+                <div class="filter-scroll">
+                    <div class="dropdown">
+                        <span>Vistara</span>
+                    </div>
+                </div>
+                <div class="filter-scroll">
+                    <div class="dropdown">
+                        <span>Air India</span>
+                    </div>
+                </div>
+                <div class="filter-scroll">
+                    <div class="dropdown">
+                        <span>Spicejet</span>
+                    </div>
+                </div>
+                <div class="filter-scroll">
+                    <div class="dropdown">
+                        <span>Gofirst</span>
+                    </div>
+                </div>
+                <div class="filter-scroll">
+                    <div class="dropdown">
+                        <span>Air Asia</span>
+                    </div>
+                </div>
+                <div class="filter-scroll">
+                    <div class="dropdown">
+                        <span>Late Departures</span>
+                    </div>
+                </div>
+
+
+                <div class="filter-button">
+                    <button>SEARCH</button>
+                </div>
+                <!-- for mobile  -->
+                <div class="filter-sort-button">
+                    <button>Sort & Filters</button>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <span class="bgGradient"></span>
+
+    <!-- Left Filter Card  -->
+
+    <section class="cards">
+        <div class="container-booking">
+            <div class="sidebar">
+
+                <div class="head">
+                    <h3>Popular Filters</h3>
+                    <span>CLEAR ALL</span>
+                </div>
+
+                <div class="filter">
+                    <div class="filter-title">
+                        <input type="checkbox" name="" id="">
+                        <label for="">Indigo</label>
+                    </div>
+                    <span>₹ 6,589</span>
+                </div>
+                <div class="filter">
+                    <div class="filter-title">
+                        <input type="checkbox" name="" id="">
+                        <label for="">Morning Departures</label>
+                    </div>
+                    <span>₹ 6,589</span>
+                </div>
+                <div class="filter">
+                    <div class="filter-title">
+                        <input type="checkbox" name="" id="">
+                        <label for="">Non Stop</label>
+                    </div>
+                    <span>₹ 6,589</span>
+                </div>
+                <div class="filter">
+                    <div class="filter-title">
+                        <input type="checkbox" name="" id="">
+                        <label for="">Air Asia</label>
+                    </div>
+                    <span>₹ 6,589</span>
+                </div>
+                <div class="filter">
+                    <div class="filter-title">
+                        <input type="checkbox" name="" id="">
+                        <label for="">Indigo</label>
+                    </div>
+                    <span>₹ 6,589</span>
+                </div>
+                <div class="rangecontainer">
+                    <h3>One Way Price:</h3>
+                    <input type="range" min="4575" max="12969" value="5999" id="myRange">
+                    <p>Price ₹<span id="demo"></span></p>
+                </div>
+                <div class="head">
+                    <h3>Stops From New Delhi</h3>
+                </div>
+
+                <div class="filter">
+                    <div class="filter-title">
+                        <input type="checkbox" name="" id="">
+                        <label for="">Non Stop</label>
+                    </div>
+                    <span>₹6,589</span>
+                </div>
+                <div class="filter">
+                    <div class="filter-title">
+                        <input type="checkbox" name="" id="">
+                        <label for="">One Stop</label>
+                    </div>
+                    <span>₹6,589</span>
+                </div>
+
+                <div class="head">
+                    <h3>Departure From New Delhi</h3>
+                </div>
+
+                <div class="smallcards-container">
+                    <div class="smallcard">
+                        <img src="./icons/morning.png" alt="">
+                        <p>Before 6am</p>
+                        <p>₹5,697</p>
+                    </div>
+                    <div class="smallcard">
+                        <img src="./icons/sun.png" alt="">
+                        <p>6 AM - 12 PM</p>
+                        <p>₹5,697</p>
+                    </div>
+                    <div class="smallcard">
+                        <img src="./icons/daytime.png" alt="">
+                        <p>12 PM - 6 PM</p>
+                        <p>₹5,697</p>
+                    </div>
+                    <div class="smallcard">
+                        <img src="./icons/night.png" alt="">
+                        <p>After 6 PM</p>
+                        <p>₹5,697</p>
+                    </div>
+
+                </div>
+
+                <div class="head">
+                    <h3>Arrival at Bangaluru</h3>
+                </div>
+
+                <div class="smallcards-container">
+                    <div class="smallcard">
+                        <img src="./icons/morning.png" alt="">
+                        <p>Before 6am</p>
+                        <p>₹5,697</p>
+                    </div>
+                    <div class="smallcard">
+                        <img src="./icons/sun.png" alt="">
+                        <p>6 AM - 12 PM</p>
+                        <p>₹5,697</p>
+                    </div>
+                    <div class="smallcard">
+                        <img src="./icons/daytime.png" alt="">
+                        <p>12 PM - 6 PM</p>
+                        <p>₹5,697</p>
+                    </div>
+                    <div class="smallcard">
+                        <img src="./icons/night.png" alt="">
+                        <p>After 6 PM</p>
+                        <p>₹5,697</p>
+                    </div>
+
+                </div>
+
+
+                <div class="head">
+                    <h3>Airlines</h3>
+                </div>
+
+                <div class="filter">
+                    <div class="filter-title">
+                        <input type="checkbox" name="" id="">
+                        <label for="">Air India</label>
+                    </div>
+                    <span>₹6,589</span>
+                </div>
+                <div class="filter">
+                    <div class="filter-title">
+                        <input type="checkbox" name="" id="">
+                        <label for="">Air Asia</label>
+                    </div>
+                    <span>₹6,589</span>
+                </div>
+                <div class="filter">
+                    <div class="filter-title">
+                        <input type="checkbox" name="" id="">
+                        <label for="">Go First</label>
+                    </div>
+                    <span>₹6,589</span>
+                </div>
+                <div class="filter">
+                    <div class="filter-title">
+                        <input type="checkbox" name="" id="">
+                        <label for="">Indigo</label>
+                    </div>
+                    <span>₹6,589</span>
+                </div>
+                <div class="filter">
+                    <div class="filter-title">
+                        <input type="checkbox" name="" id="">
+                        <label for="">Spicejet</label>
+                    </div>
+                    <span>₹6,589</span>
+                </div>
+                <div class="filter">
+                    <div class="filter-title">
+                        <input type="checkbox" name="" id="">
+                        <label for="">Vistara</label>
+                    </div>
+                    <span>₹6,589</span>
+                </div>
+
+
+            </div>
+
+            <!-- Right Filter Card  -->
+
+            <div class="description-card">
+                <div class="to-from-mobile">
+                    <div class="back-button">
+                       <a href="index.html"><i class="fa fa-arrow-left" aria-hidden="true"></i></a> 
+                    </div>
+                    <div class="to-from-des">
+                        <h1>New Delhi - Bangaluru</h1>
+                        <p>10 Sep | 3 Adults | Economy</p>
+                    </div>
+                </div>
+                <div class="heading">
+                    <h2>Flights from Delhi to Bangaluru</h2>
+                </div>
+                <div class="description-container">
+                    <div class="slider-frame">
+                        <ul class="slider-frame-list">
+                            <div class="left">
+                                <i class="fa fa-angle-left" aria-hidden="true"></i>
+                            </div>
+                            <div class="date-container">
+                                <li class="time-list">
+                                    <h5>Tue, Sep 7</h5>
+                                    <p>₹ 6,879</p>
+                                </li>
+                                <li class="time-list">
+                                    <h5>Wed, Sep 8</h5>
+                                    <p>₹ 6,879</p>
+                                </li>
+                                <li class="time-list">
+                                    <h5>Thu, Sep 9</h5>
+                                    <p>₹ 6,879</p>
+                                </li>
+                                <li class="time-list">
+                                    <h5>Fri, Sep 10</h5>
+                                    <p>₹ 6,879</p>
+                                </li>
+                                <li class="time-list">
+                                    <h5>Sat, Sep 11</h5>
+                                    <p>₹ 6,879</p>
+                                </li>
+                                <li class="time-list">
+                                    <h5>Sun, Sep 12</h5>
+                                    <p>₹ 6,879</p>
+                                </li>
+                                <li class="time-list">
+                                    <h5>Mon, Sep 13</h5>
+                                    <p>₹ 6,879</p>
+                                </li>
+                            </div>
+                            <div class="right">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </div>
+
+                        </ul>
+                    </div>
+
+                    <div class="sort-bar">
+                        <span>Sorted By:</span>
+                        <span>Departure</span>
+                        <span>Duration</span>
+                        <span>Arrival</span>
+                        <span>Price</span>
+                    </div>
+
+
+                    <div class="airlines-description">
+                        <div class="flight-image">
+                            <img src="./img/indigo.png" alt="">
+                            <p>Indigo</p>
+                        </div>
+                        <div class="timing-strip">
+                            <div class="departure">
+                                <h2>04:55</h2>
+                                <p>New Delhi</p>
+                            </div>
+
+                            <div class="duration">
+                                <p>06 h 25 m</p>
+                                <div class="seprator">
+                                    <img src="./icons/line.png" alt="">
+                                    <img src="./icons/dot.png" alt="">
+                                    <img src="./icons/line.png" alt="">
+                                </div>
+                                <p>1 stop via Kolkata</p>
+                            </div>
+
+                            <div class="arrival">
+                                <h2>08:55</h2>
+                                <p>Bangaluru</p>
+                            </div>
+
+                        </div>
+                        <div class="price">
+                            <p>₹5,656</p>
+                        </div>
+
+                    </div>
+                    <div class="offer-strip">
+                        <p>Use code GREATDEAL and get up to Rs. 1500 instant discount on this flight</p>
+                    </div>
+
+                    <div class="airlines-description">
+                        <div class="flight-image">
+                            <img src="./img/spicejet.png" alt="">
+                            <p>Spicejet</p>
+                        </div>
+
+                        <div class="timing-strip">
+                            <div class="departure">
+                                <h2>04:55</h2>
+                                <p>New Delhi</p>
+                            </div>
+
+                            <div class="duration">
+                                <p>06 h 25 m</p>
+                                <div class="seprator">
+                                    <img src="./icons/line.png" alt="">
+                                    <img src="./icons/line.png" alt="">
+                                </div>
+                                <p>non-stop</p>
+                            </div>
+
+                            <div class="arrival">
+                                <h2>06:55</h2>
+                                <p>Bangaluru</p>
+                            </div>
+                        </div>
+
+
+                        <div class="price">
+                            <p>₹5,656</p>
+                        </div>
+                    </div>
+                    <div class="offer-strip">
+                        <p>Use code TRAVELTODAY and get up to Rs. 1500 instant discount on this flight</p>
+                    </div>
+
+                    <div class="airlines-description">
+                        <div class="flight-image">
+                            <img src="./img/airasia.png" alt="">
+                            <p>AirAsia</p>
+                        </div>
+                        <div class="timing-strip">
+                            <div class="departure">
+                                <h2>02:55</h2>
+                                <p>New Delhi</p>
+                            </div>
+
+                            <div class="duration">
+                                <p>06 h 25 m</p>
+                                <div class="seprator">
+                                    <img src="./icons/line.png" alt="">
+                                    <img src="./icons/dot.png" alt="">
+                                    <img src="./icons/line.png" alt="">
+                                    <img src="./icons/dot.png" alt="">
+                                    <img src="./icons/line.png" alt="">
+                                </div>
+                                <p>2 stop via kolkata, chennai</p>
+                            </div>
+
+                            <div class="arrival">
+                                <h2>09:55</h2>
+                                <p>Bangaluru</p>
+                            </div>
+                        </div>
+
+                        <div class="price">
+                            <p>₹5,656</p>
+                        </div>
+                    </div>
+                    <div class="offer-strip">
+                        <p>Use code GREATDEAL and get up to Rs. 1500 instant discount on this flight</p>
+                    </div>
+
+                    <div class="airlines-description">
+                        <div class="flight-image">
+                            <img src="./img/airindia.png" alt="">
+                            <p>AirIndia</p>
+                        </div>
+                        <div class="timing-strip">
+                            <div class="departure">
+                                <h2>04:55</h2>
+                                <p>New Delhi</p>
+                            </div>
+
+                            <div class="duration">
+                                <p>06 h 25 m</p>
+                                <div class="seprator">
+                                    <img src="./icons/line.png" alt="">
+                                    <img src="./icons/line.png" alt="">
+                                </div>
+                                <p>Non Stop</p>
+                            </div>
+
+                            <div class="arrival">
+                                <h2>07:55</h2>
+                                <p>Bangaluru</p>
+                            </div>
+
+                        </div>
+                        <div class="price">
+                            <p>₹5,656</p>
+                        </div>
+                    </div>
+
+                    <div class="offer-strip">
+                        <p>Use code TRAVELTODAY and get up to Rs. 1500 instant discount on this flight</p>
+                    </div>
+
+                    <div class="airlines-description">
+                        <div class="flight-image">
+                            <img src="./img/gofirst.png" alt="">
+                            <p>GoFirst</p>
+                        </div>
+                        <div class="timing-strip">
+                            <div class="departure">
+                                <h2>11:55</h2>
+                                <p>New Delhi</p>
+                            </div>
+
+                            <div class="duration">
+                                <p>06 h 25 m</p>
+                                <div class="seprator">
+                                    <img src="./icons/line.png" alt="">
+                                    <img src="./icons/dot.png" alt="">
+                                    <img src="./icons/line.png" alt="">
+                                    <img src="./icons/dot.png" alt="">
+                                    <img src="./icons/line.png" alt="">
+                                </div>
+                                <p>2 stop via delhi, kolkata</p>
+                            </div>
+
+                            <div class="arrival">
+                                <h2>04:55</h2>
+                                <p>Bangaluru</p>
+                            </div>
+                        </div>
+
+                        <div class="price">
+                            <p>₹5,656</p>
+                        </div>
+                    </div>
+
+                    <div class="offer-strip">
+                        <p>Use code GREATDEAL and get up to Rs. 1500 instant discount on this flight</p>
+                    </div>
+
+                    <div class="airlines-description">
+                        <div class="flight-image">
+                            <img src="./img/vistara.png" alt="">
+                            <p>Vistara</p>
+                        </div>
+                        <div class="timing-strip">
+                            <div class="departure">
+                                <h2>04:55</h2>
+                                <p>New Delhi</p>
+                            </div>
+
+                            <div class="duration">
+                                <p>06 h 25 m</p>
+                                <div class="seprator">
+                                    <img src="./icons/line.png" alt="">
+                                    <img src="./icons/dot.png" alt="">
+                                    <img src="./icons/line.png" alt="">
+                                </div>
+                                <p>1 stop via Kolkata</p>
+                            </div>
+
+                            <div class="arrival">
+                                <h2>04:55</h2>
+                                <p>New Delhi</p>
+                            </div>
+                        </div>
+
+                        <div class="price">
+                            <p>₹5,656</p>
+                        </div>
+                    </div>
+
+                    <div class="offer-strip">
+                        <p>Use code TRAVELTODAY and get up to Rs. 1500 instant discount on this flight</p>
+                    </div>
+
+                    <div class="airlines-description">
+                        <div class="flight-image">
+                            <img src="./img/airasia.png" alt="">
+                            <p>AirAsia</p>
+                        </div>
+                        <div class="timing-strip">
+                            <div class="departure">
+                                <h2>04:55</h2>
+                                <p>New Delhi</p>
+                            </div>
+
+                            <div class="duration">
+                                <p>06 h 25 m</p>
+                                <div class="seprator">
+                                    <img src="./icons/line.png" alt="">
+                                    <img src="./icons/dot.png" alt="">
+                                    <img src="./icons/line.png" alt="">
+                                </div>
+                                <p>1 stop via Kolkata</p>
+                            </div>
+
+                            <div class="arrival">
+                                <h2>04:55</h2>
+                                <p>New Delhi</p>
+                            </div>
+                        </div>
+
+                        <div class="price">
+                            <p>₹5,656</p>
+                        </div>
+                    </div>
+
+                    <div class="offer-strip">
+                        <p>Use code TRAVELTODAY and get up to Rs. 1500 instant discount on this flight</p>
+                    </div>
+
+                    <div class="airlines-description">
+                        <div class="flight-image">
+                            <img src="./img/gofirst.png" alt="">
+                            <p>GoFirst</p>
+                        </div>
+                        <div class="timing-strip">
+                            <div class="departure">
+                                <h2>11:55</h2>
+                                <p>New Delhi</p>
+                            </div>
+
+                            <div class="duration">
+                                <p>06 h 25 m</p>
+                                <div class="seprator">
+                                    <img src="./icons/line.png" alt="">
+                                    <img src="./icons/dot.png" alt="">
+                                    <img src="./icons/line.png" alt="">
+                                </div>
+                                <p>1 stop via Kolkata</p>
+                            </div>
+
+                            <div class="arrival">
+                                <h2>04:55</h2>
+                                <p>Bangaluru</p>
+                            </div>
+                        </div>
+
+                        <div class="price">
+                            <p>₹5,656</p>
+                        </div>
+                    </div>
+
+                    <div class="offer-strip">
+                        <p>Use code GREATDEAL and get up to Rs. 1500 instant discount on this flight</p>
+                    </div>
+
+                    <div class="airlines-description">
+                        <div class="flight-image">
+                            <img src="./img/airasia.png" alt="">
+                            <p>AirAsia</p>
+                        </div>
+                        <div class="timing-strip">
+                            <div class="departure">
+                                <h2>02:55</h2>
+                                <p>New Delhi</p>
+                            </div>
+
+                            <div class="duration">
+                                <p>06 h 25 m</p>
+                                <div class="seprator">
+                                    <img src="./icons/line.png" alt="">
+                                    <img src="./icons/dot.png" alt="">
+                                    <img src="./icons/line.png" alt="">
+                                </div>
+                                <p>1 stop via Kolkata</p>
+                            </div>
+
+                            <div class="arrival">
+                                <h2>09:55</h2>
+                                <p>Bangaluru</p>
+                            </div>
+                        </div>
+
+                        <div class="price">
+                            <p>₹5,656</p>
+                        </div>
+                    </div>
+                    <div class="offer-strip">
+                        <p>Use code TRAVELTODAY and get up to Rs. 1500 instant discount on this flight</p>
+                    </div>
+
+                    <div class="airlines-description">
+                        <div class="flight-image">
+                            <img src="./img/airindia.png" alt="">
+                            <p>AirIndia</p>
+                        </div>
+                        <div class="timing-strip">
+                            <div class="departure">
+                                <h2>04:55</h2>
+                                <p>New Delhi</p>
+                            </div>
+
+                            <div class="duration">
+                                <p>06 h 25 m</p>
+                                <div class="seprator">
+                                    <img src="./icons/line.png" alt="">
+                                    <img src="./icons/dot.png" alt="">
+                                    <img src="./icons/line.png" alt="">
+                                </div>
+                                <p>1 stop via Kolkata</p>
+                            </div>
+
+                            <div class="arrival">
+                                <h2>07:55</h2>
+                                <p>Bangaluru</p>
+                            </div>
+
+                        </div>
+                        <div class="price">
+                            <p>₹5,656</p>
+                        </div>
+                    </div>
+
+                    <div class="offer-strip">
+                        <p>Use code TRAVELTODAY and get up to Rs. 1500 instant discount on this flight</p>
+                    </div>
+
+                    <div class="airlines-description">
+                        <div class="flight-image">
+                            <img src="./img/gofirst.png" alt="">
+                            <p>GoFirst</p>
+                        </div>
+                        <div class="timing-strip">
+                            <div class="departure">
+                                <h2>11:55</h2>
+                                <p>New Delhi</p>
+                            </div>
+
+                            <div class="duration">
+                                <p>06 h 25 m</p>
+                                <div class="seprator">
+                                    <img src="./icons/line.png" alt="">
+                                    <img src="./icons/dot.png" alt="">
+                                    <img src="./icons/line.png" alt="">
+                                </div>
+                                <p>1 stop via Kolkata</p>
+                            </div>
+
+                            <div class="arrival">
+                                <h2>04:55</h2>
+                                <p>Bangaluru</p>
+                            </div>
+                        </div>
+
+                        <div class="price">
+                            <p>₹ 5,656</p>
+                        </div>
+                    </div>
+
+                    <div class="offer-strip">
+                        <p>Use code TRAVELTODAY and get up to Rs. 1500 instant discount on this flight</p>
+                    </div>
+
+                    <div class="airlines-description">
+                        <div class="flight-image">
+                            <img src="./img/airindia.png" alt="">
+                            <p>AirIndia</p>
+                        </div>
+                        <div class="timing-strip">
+                            <div class="departure">
+                                <h2>04:55</h2>
+                                <p>New Delhi</p>
+                            </div>
+
+                            <div class="duration">
+                                <p>06 h 25 m</p>
+                                <div class="seprator">
+                                    <img src="./icons/line.png" alt="">
+                                    <img src="./icons/dot.png" alt="">
+                                    <img src="./icons/line.png" alt="">
+                                </div>
+                                <p>1 stop via Kolkata</p>
+                            </div>
+
+                            <div class="arrival">
+                                <h2>07:55</h2>
+                                <p>Bangaluru</p>
+                            </div>
+
+                        </div>
+                        <div class="price">
+                            <p>₹5,656</p>
+                        </div>
+                    </div>
+
+                    <div class="airlines-description">
+                        <div class="flight-image">
+                            <img src="./img/airasia.png" alt="">
+                            <p>AirAsia</p>
+                        </div>
+                        <div class="timing-strip">
+                            <div class="departure">
+                                <h2>02:55</h2>
+                                <p>New Delhi</p>
+                            </div>
+
+                            <div class="duration">
+                                <p>06 h 25 m</p>
+                                <div class="seprator">
+                                    <img src="./icons/line.png" alt="">
+                                    <img src="./icons/dot.png" alt="">
+                                    <img src="./icons/line.png" alt="">
+                                </div>
+                                <p>1 stop via Kolkata</p>
+                            </div>
+
+                            <div class="arrival">
+                                <h2>09:55</h2>
+                                <p>Bangaluru</p>
+                            </div>
+                        </div>
+
+                        <div class="price">
+                            <p>₹5,656</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- <script src="js/main.js"></script> -->
+    <script src="./js/flight.js"></script>
+</body>
+
+</html>

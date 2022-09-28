@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flight booking</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<style>
+    .nav-link {
+        color: black;
+        font-weight: bold;
+    }
+
+    .nav-list .nav-item a:hover {
+        color: white;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="container-header">
+            <nav class="nav">
+                <a href="index.html" class="logo">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <div class="hamburger-menu">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link current">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="flight.html" class="nav-link">Flights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="car.html" class="nav-link">Cars</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#faq-section" class="nav-link">Faq</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- sidebar-widget  -->
+    <nav class="social">
+        <ul social-ul>
+            <li><a href="#"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i><span>Twitter</span></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i><span>Instagram</span></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i><span>Linkedin</span></a></li>
+        </ul>
+    </nav>
+
+    <!-- Booking Banner & Background -->
+
+
+    <div class="container">
+        <div class="flight-content">
+            <div class="info">
+                <h2>Compare and Book Cheap Flights on Over 600 Airlines</h2>
+            </div>
+
+            <div class="booking-info">
+                <div class="slider-indicator">
+                    <span class="active" data-id="0">Flights</span>
+                    <span data-id="1">Cars</span>
+                </div>
+
+                <div class="slider">
+                    <div class="slide active">
+
+                        <div class="item">
+                            <i class="fa fa-map-marker"></i>
+                            <input type="text" placeholder="Enter you Location">
+                        </div>
+                        <div class="item">
+                            <i class="fa fa-plane"></i>
+                            <input type="text" placeholder="Enter the Destination">
+                        </div>
+
+                        <div class="item">
+                            <h3>Depart</h3>
+                            <input type="date">
+                        </div>
+
+                        <div class="item">
+                            <h3>Return</h3>
+                            <input type="date">
+                        </div>
+
+                        <div class="button">
+                            <a href="flight.html"><button>Book Now</button></a>
+                        </div>
+
+
+                    </div>
+
+                    <div class="slide">
+                        <div class="item">
+                            <i class="fa fa-map-marker"></i>
+                            <input type="text" placeholder="Pickup Location">
+                        </div>
+
+                        <div class="item">
+                            <h3>Pick up Date</h3>
+                            <input type="date">
+                        </div>
+                        <div class="item">
+                            <h3>Pick up Time</h3>
+                            <input type="time">
+                        </div>
+
+                        <div class="item">
+                            <h3>Drop off Date</h3>
+                            <input type="date">
+                        </div>
+                        <div class="item">
+                            <h3>Drop off Time</h3>
+                            <input type="time">
+                        </div>
+
+                        <div class="button">
+                            <a href="flight.html"><button>Search Cars</button></a>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <img src="img/hotel.png" alt="" class="building">
+        <img src="img/plane.png" class="plane">
+        <img src="img/cloud.png" alt="" class="cloud">
+        <img src="img/cloud.png" class="cloud_3">
+        <img src="img/cloud.png" class="cloud_4">
+
+
+    </div>
+    <hr class="section-seprator">
+
+    <section class="Explore-section">
+        <div class="explore-head">
+            <h1>Explore Deals From</h1>
+            <i class="fa fa-location-arrow" aria-hidden="true"></i>
+            <span>New Delhi</span>
+        </div>
+
+        <div class="explore-content-wrapper">
+            <div class="locations">
+                <img src="./img/bangkok.jpg" alt="">
+                <h1>Bangkok, India</h1>
+                <section class="info-deal">
+                    <h4>77$</h4>
+                    <div class="info-deal-location">
+                        <p>DEL = BKK</p>
+                        <p>Mar 08 - April 21</p>
+                    </div>
+                </section>
+                <div class="deal-range">
+                    <div class="arrow-green"></div>
+                    <div class="green"></div>
+                    <div class="blue"></div>
+                    <div class="red"></div>
+                </div>
+                <div class="price-range">
+                    <p>$123</p>
+                    <p>$193</p>
+                </div>
+                <div class="calculation-description">
+                    <span>How we calculate this</span>
+                    <i class="fa fa-info-circle i-icon" aria-hidden="true"></i>
+                    <p class="info-drop">Basis of comparison is calculated by combining similar flights (same route,
+                        booking class, trip type and similar days to departure) previously searched on Fly Away (and
+                        related sites) for the previous month and the similar season last year</p>
+                </div>
+
+            </div>
+            <div class="locations">
+                <img src="./img/abu.jpg" alt="">
+                <h1>Abu Dhabi, India</h1>
+                <section class="info-deal">
+                    <h4>199$</h4>
+                    <div class="info-deal-location">
+                        <p>DEL = AUH</p>
+                        <p>Jul 08 - Aug21</p>
+                    </div>
+                </section>
+                <div class="deal-range">
+                    <div class="arrow-green"></div>
+                    <div class="green"></div>
+                    <div class="blue"></div>
+                    <div class="red"></div>
+                </div>
+                <div class="price-range">
+                    <p>$93</p>
+                    <p>$163</p>
+                </div>
+                <div class="calculation-description">
+                    <span>How we calculate this</span>
+                    <i class="fa fa-info-circle i-icon" aria-hidden="true"></i>
+                    <p class="info-drop">Basis of comparison is calculated by combining similar flights (same route,
+                        booking class, trip type and similar days to departure) previously searched on Fly Away (and
+                        related sites) for the previous month and the similar season last year</p>
+                </div>
+
+            </div>
+            <div class="locations">
+                <img src="./img/goa.jpg" alt="">
+                <h1>Goa, India</h1>
+                <section class="info-deal">
+                    <h4>54$</h4>
+                    <div class="info-deal-location">
+                        <p>DEL = GOA</p>
+                        <p>Mar 08 - April 21</p>
+                    </div>
+                </section>
+                <div class="deal-range">
+                    <div class="arrow-green"></div>
+                    <div class="green"></div>
+                    <div class="blue"></div>
+                    <div class="red"></div>
+                </div>
+                <div class="price-range">
+                    <p>$43</p>
+                    <p>$73</p>
+                </div>
+                <div class="calculation-description">
+                    <span>How we calculate this</span>
+                    <i class="fa fa-info-circle i-icon" aria-hidden="true"></i>
+                    <p class="info-drop">Basis of comparison is calculated by combining similar flights (same route,
+                        booking class, trip type and similar days to departure) previously searched on Fly Away (and
+                        related sites) for the previous month and the similar season last year</p>
+                </div>
+
+            </div>
+            <div class="locations">
+                <img src="./img/dubai.jpg" alt="">
+                <h1>Dubai, India</h1>
+                <section class="info-deal">
+                    <h4>87$</h4>
+                    <div class="info-deal-location">
+                        <p>DEL = DXB</p>
+                        <p>May 08 - June 19</p>
+                    </div>
+                </section>
+                <div class="deal-range">
+                    <div class="arrow-green"></div>
+                    <div class="green"></div>
+                    <div class="blue"></div>
+                    <div class="red"></div>
+                </div>
+                <div class="price-range">
+                    <p>$13</p>
+                    <p>$63</p>
+                </div>
+                <div class="calculation-description">
+                    <span>How we calculate this</span>
+                    <i class="fa fa-info-circle i-icon" aria-hidden="true"></i>
+                    <p class="info-drop">Basis of comparison is calculated by combining similar flights (same route,
+                        booking class, trip type and similar days to departure) previously searched on Fly Away (and
+                        related sites) for the previous month and the similar season last year</p>
+                </div>
+
+            </div>
+
+            <div class="locations">
+                <img src="./img/kolkata.jpg" alt="">
+                <h1>Kolkata, India</h1>
+                <section class="info-deal">
+                    <h4>37$</h4>
+                    <div class="info-deal-location">
+                        <p>DEL = CCU</p>
+                        <p>Dec 08 - Jan 21</p>
+                    </div>
+                </section>
+                <div class="deal-range">
+                    <div class="arrow-green"></div>
+                    <div class="green"></div>
+                    <div class="blue"></div>
+                    <div class="red"></div>
+                </div>
+                <div class="price-range">
+                    <p>$13</p>
+                    <p>$23</p>
+                </div>
+                <div class="calculation-description">
+                    <span>How we calculate this</span>
+                    <i class="fa fa-info-circle i-icon" aria-hidden="true"></i>
+                    <p class="info-drop">Basis of comparison is calculated by combining similar flights (same route,
+                        booking class, trip type and similar days to departure) previously searched on Fly Away (and
+                        related sites) for the previous month and the similar season last year</p>
+                </div>
+
+            </div>
+            <div class="locations">
+                <img src="./img/chennai.jpg" alt="">
+                <h1>Chennai, India</h1>
+                <section class="info-deal">
+                    <h4>57$</h4>
+                    <div class="info-deal-location">
+                        <p>DEL = MAA</p>
+                        <p>Feb 08 - Mar 21</p>
+                    </div>
+                </section>
+                <div class="deal-range">
+                    <div class="arrow-green"></div>
+                    <div class="green"></div>
+                    <div class="blue"></div>
+                    <div class="red"></div>
+                </div>
+                <div class="price-range">
+                    <p>$110</p>
+                    <p>$178</p>
+                </div>
+                <div class="calculation-description">
+                    <span>How we calculate this</span>
+                    <i class="fa fa-info-circle i-icon" aria-hidden="true"></i>
+                    <p class="info-drop">Basis of comparison is calculated by combining similar flights (same route,
+                        booking class, trip type and similar days to departure) previously searched on Fly Away (and
+                        related sites) for the previous month and the similar season last year</p>
+                </div>
+
+            </div>
+            <div class="locations">
+                <img src="./img/lucknow.jpg" alt="">
+                <h1>Lucknow, India</h1>
+                <section class="info-deal">
+                    <h4>67$</h4>
+                    <div class="info-deal-location">
+                        <p>DEL = LKO</p>
+                        <p>Feb 08 - Feb 21</p>
+                    </div>
+                </section>
+                <div class="deal-range">
+                    <div class="arrow-green"></div>
+                    <div class="green"></div>
+                    <div class="blue"></div>
+                    <div class="red"></div>
+                </div>
+                <div class="price-range">
+                    <p>$43</p>
+                    <p>$98</p>
+                </div>
+                <div class="calculation-description">
+                    <span>How we calculate this</span>
+                    <i class="fa fa-info-circle i-icon" aria-hidden="true"></i>
+                    <p class="info-drop">Basis of comparison is calculated by combining similar flights (same route,
+                        booking class, trip type and similar days to departure) previously searched on Fly Away (and
+                        related sites) for the previous month and the similar season last year</p>
+                </div>
+
+            </div>
+            <div class="locations">
+                <img src="./img/hyderabad.jpg" alt="">
+                <h1>Hyderabad, India</h1>
+                <section class="info-deal">
+                    <h4>77$</h4>
+                    <div class="info-deal-location">
+                        <p>DEL = HYD</p>
+                        <p>Feb 08 - Feb 21</p>
+                    </div>
+                </section>
+                <div class="deal-range">
+                    <div class="arrow-green"></div>
+                    <div class="green"></div>
+                    <div class="blue"></div>
+                    <div class="red"></div>
+                </div>
+                <div class="price-range">
+                    <p>$43</p>
+                    <p>$90</p>
+                </div>
+                <div class="calculation-description">
+                    <span>How we calculate this</span>
+                    <i class="fa fa-info-circle i-icon" aria-hidden="true"></i>
+                    <p class="info-drop">Basis of comparison is calculated by combining similar flights (same route,
+                        booking class, trip type and similar days to departure) previously searched on Fly Away (and
+                        related sites) for the previous month and the similar season last year</p>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </section>
+    <hr class="section-seprator">
+    <section class="feedback">
+        <div class="head-feed">
+            <ul>
+                <li>• Compare flights from 650 airlines</li>
+                <li>• 14 million customers per year </li>
+                <li>• Secure payment </li>
+            </ul>
+        </div>
+
+        <div class="payment-logo">
+            <img src="./img/mastercard.png" alt="">
+            <img src="./img/visa.png" alt="">
+            <img src="./img/sabre.png" alt="">
+            <img src="./img/amadeus.png" alt="">
+        </div>
+
+        <div class="about-feed">
+            <div class="ab-feed">
+                <img src="img/byyourside.png" alt="">
+                <h4>We stand by your side</h4>
+                <p>Before and during your trip we are always ready to answer any questions you have about our services.
+                </p>
+            </div>
+            <div class="ab-feed">
+                <img src="img/Experience.png" alt="">
+                <h4>We stand by your side</h4>
+                <p>Before and during your trip we are always ready to answer any questions you have about our services.
+                </p>
+            </div>
+            <div class="ab-feed">
+                <img src="img/bestselection.png" alt="">
+                <h4>We stand by your side</h4>
+                <p id="faq-section">Before and during your trip we are always ready to answer any questions you have about our services.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="faq-head">
+            <h2>FAQ</h2>
+        </div>
+        <div class="faq-container">
+            <div class="faq">
+                <h3>Q - How do I make a flight booking on FlyAway</h3>
+                <p>A: You can book a flight on FlyAway in five easy steps: Head over to the FlyAway flight booking
+                    page, Enter your departure and arrival destinations, Select your air travel dates, Choose from our
+                    wide range of flights based on your airfare preferences, Click on ‘Book Now’ and your air flight
+                    booking is done. Alternatively, you can also use the FlyAway app for your flight ticket booking.
+                    Download the FlyAway app, Put in the details i.e. date of journey, departure and arrival
+                    destinations, travel class of your choice, Select on your best comfortable option and click on 'Book
+                    Now'.</p>
+            </div>
+            <div class="faq">
+                <h3>Q - Can I avail domestic flight offers on FlyAway?</h3>
+                <p>A: Of course, you can. While making domestic flight bookings, you can avail any special offer that is
+                    active at that time. In accordance with the offer selected, a listing of eligible flights would show
+                    up on your screen. You can then apply the price filter and click on the downwards arrow, following
+                    which budget-friendly flights would start showing up in ascending order from the top (lowest price
+                    on top).</p>
+            </div>
+            <div class="faq">
+                <h3>Q - How can I avail budget air tickets on FlyAway?</h3>
+                <p>A: It’s super-easy to avail budget airfare while booking your flight tickets on FlyAway. Just
+                    select the ‘Price’ filter once the available flight options are displayed and adjust according to
+                    your convenience. On the FlyAway app, you can select the downward arrow, which will show the
+                    lowest airfare at the top and continue downward in ascending order..</p>
+            </div>
+            <div class="faq">
+                <h3>Q - Why could I not avail the flight booking offers at the time of checkout?</h3>
+                <p>A: FlyAway makes use of a world-class real-time reservation database to list airfare and
+                    availability. As dynamic changes in airfare take place, or the available flight tickets sell out,
+                    the database reflects the changes in real-time. Hence, we suggest, you double-check online flight
+                    booking prices when purchasing flight tickets, as the airfare might have been dynamically updated
+                    since you first selected the air travel dates or planned your itinerary.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container-footer">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Fly Away</h4>
+                    <ul>
+                        <li><a href="#">Flight</a></li>
+                        <li><a href="#">Cars</a></li>
+                        <li><a href="#">packages</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#faq-section">FAQ</a></li>
+                        <li><a href="#">booking</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">flight status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <section class="subscribe">
+                    <div class="footer-col sub-container">
+                        <div>
+                            <h1>Subscribe to our newsletter</h1>
+                            <p>Sign up today and never miss another deal again!</p>
+                            <div class="input-wrap">
+                                <input type="email" placeholder="Get FlyAway Mails">
+                                <button>Subscribe</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+
+            <div class="branding">
+                <img src="img/bvisa.png" alt="">
+                <img src="img/baffirm.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
